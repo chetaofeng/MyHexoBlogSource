@@ -371,18 +371,12 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
-  shortname: 天行贱
+  enable: false
+  shortname: 行锋
   count: true
 
 # Hypercomments
 #hypercomments_id:
-
-# changyan
-changyan:
-  enable: false
-  appid:
-  appkey:
 
 
 # Valine.
@@ -402,7 +396,7 @@ valine:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
+# youyan_uid: 2159259
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
@@ -412,36 +406,37 @@ valine:
 # Introduction: https://imsun.net/posts/gitment-introduction/
 # You can get your Github ID from https://api.github.com/users/<Github username>
 gitment:
-  enable: false
+  enable: true
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
-  github_user: # MUST HAVE, Your Github ID
-  github_repo: # MUST HAVE, The repo you use to store Gitment comments
-  client_id: # MUST HAVE, Github client id for the Gitment
-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  github_user: chetaofeng
+  github_repo: chetaofeng.github.io
+  client_id: cdad0b52d3b0f16bb4ea
+  client_secret: 3a517daf6c3ddafc8d92d32fc3499e190849e1b2
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+
 
 # Baidu Share
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
+baidushare: true
+  ##type: button
 
 # Share
 # This plugin is more useful in China, make sure you known how to use it.
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
-jiathis: true
+#jiathis: false
   ##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
 # Share
-duoshuo_share: true
+#duoshuo_share: false
 
 # NeedMoreShare2
 # This plugin is a pure javascript sharing lib which is useful in China.

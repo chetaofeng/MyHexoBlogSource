@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 天行贱
-subtitle: 天行贱，君子以自强不吸
-description: 天行贱，君子以自强不吸
-author: chetaofeng@163.com
+title: 行锋
+subtitle: 情商不够技术凑
+description: 行锋的技术博客
+author: 行锋
 language: zh-Hans
 timezone: Asia/Shanghai
 
@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
