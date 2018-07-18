@@ -45,7 +45,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2015
+  since: 2015
 
   # Icon between year and copyright info.
   icon: user
@@ -160,12 +160,12 @@ links_layout: block
 #links_layout: inline
 #links:
   #Title: http://example.com/
-百度: http://baidu.com
+  #百度: http://baidu.com
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://thumbnail0.baidupcs.com/thumbnail/ffe865c204e97eca5e08f40f2317b186?fid=1729393021-250528-398039692811357&time=1521086400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-wzXrfxx4izGuCP%2Fhli2pbTC%2B8P4%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=1705004546014355991&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video
+avatar:  /pub-images/avatar.png
 
 # Table Of Contents in the Sidebar
 toc:
