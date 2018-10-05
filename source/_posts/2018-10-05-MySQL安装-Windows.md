@@ -1,8 +1,17 @@
 ---
-title: Windows下MySQL的安装
-date: 2018-08-29 22:31:20
+title: MySQL安装_Windows
 tags:
+  - MySQL
+  - 数据库
+copyright: true
+comments: true
+toc: true
+date: 2018-10-05 10:04:03
+categories: 数据库
+password:
 ---
+
+
 下载页面：https://dev.mysql.com/downloads/mysql/
 
 * 选择"Microsoft Windows",下载免安装版的zip文件;

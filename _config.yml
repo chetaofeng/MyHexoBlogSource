@@ -80,7 +80,7 @@ deploy:
   type: git
   repo: https://github.com/chetaofeng/chetaofeng.github.io
   branch: master
-  message: https://github.com/chetaofeng/MyHexoBlogSource 内容部署
+  message: https://github.com/chetaofeng/MyHexoBlogSource 内容部署 {{ now('YYYY-MM-DD HH:mm:ss') }}
 
 search:
   path: search.xml
