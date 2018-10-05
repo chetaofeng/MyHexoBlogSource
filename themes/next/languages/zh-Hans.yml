@@ -91,8 +91,8 @@ symbol:
 
 reward:
   donate: 打赏
-  wechatpay: /pub-images/weixin.png
-  alipay: /pub-images/alipay.png
+  wechatpay: 微信支付
+  alipay: 支付宝
   bitcoin: 比特币
 
 gitmentbutton: 显示 Gitment 评论
