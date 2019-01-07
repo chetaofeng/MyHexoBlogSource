@@ -118,11 +118,10 @@ https://www.imooc.com/learn/1058
 SpringBoot Starter:简化依赖、按需装配、自我包含
 Production-Ready：一站式运维、生态无缝整合
 
-前两天在看池建强老师文章时，发现老师刚好也介绍了Spring Boot2.0，其中有这么一个观点：Java 语言为什么能够长期占据编程兵器排行榜第一名的位置呢？因为命好。
-
 Java 能长盛不衰，主要是命好。每当人们觉得 Java 不行了的时候，总会有英雄横刀救美。
-
-最初 Java 开发出来不知道有什么用的时候，发现可以用 Applet 在网页上做动画。后来企业级软件开发时代 JavaEE 大行其道，开源社区 Spring 桃李满天下。等到了移动时代，人们觉得 Java 要完蛋了，Google 拍马救市，收购并开放了 Android 平台，当家语言就是 Java，于是 Java 再次焕发勃勃生机。目前大数据领域，Java 同样是当仁不让的好手。
+最初 Java 开发出来不知道有什么用的时候，发现可以用 Applet 在网页上做动画。后来企业级软件开发时代 JavaEE 大行其道，开源社区 Spring 桃李满天下。
+等到了移动时代，人们觉得 Java 要完蛋了，Google 拍马救市，收购并开放了 Android 平台，当家语言就是 Java，于是 Java 再次焕发勃勃生机。
+目前大数据领域，Java 同样是当仁不让的好手。
 
 现在 Spring Framework 那套东西使用了十几年，正当大家被长达几千行的 ApplicationContext 配置文件折磨的死去活来的时候，Spring Boot 诞生了。什么是 Spring Boot？用来简化 Spring 应用程序开发的。
 
