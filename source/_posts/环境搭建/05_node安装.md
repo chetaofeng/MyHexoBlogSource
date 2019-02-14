@@ -10,7 +10,6 @@ categories:
 password:
 ---
 
-
 # 相关概念
 nodejs：在项目开发时的所需要的代码库
 nvm：nodejs 版本管理工具。
@@ -26,8 +25,10 @@ yarn：Yarn是由Facebook、Google、Exponent 和 Tilde 联合推出了一个新
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 ~~~
-在~/.bash_profile中添加以上内容后保存；通过source ~/.bash_profile使设置生效。 
+在~/.bash_profile中添加以上内容(如果没有这个文件则创建)后保存；通过source ~/.bash_profile使设置生效。 
 安装完成后关闭终端，重新打开终端输入 nvm 验证一下是否安装成功
+
+注：curl看系统是否已安装，如果没有安装则：sudo apt-get install curl
 
 # nvm常用命令
 nvm install stable ## 安装最新稳定版 node，当前是node v9.5.0 (npm v5.6.0)

@@ -1,5 +1,5 @@
 ---
-title: java JDK安装配置
+title: mac系统安装
 tags:
   - 环境搭建
 copyright: true
@@ -10,4 +10,4 @@ categories:
 password:
 ---
 
-http://idea.lanyus.com/
+https://www.cnblogs.com/GO-NO-1/p/9084713.html

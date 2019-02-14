@@ -19,7 +19,9 @@ U盘启动：目的是为了在没有装系统的情况下进行临时启动，�
 2. 下载好需要安装的系统。在App Store中搜索系统，如：MacOS Sierra，完成下载。
 3. 打开 “应用程序 → 实用工具 → 磁盘工具”，将U盘「抹掉」(格式化) 成「Mac OS X 扩展（日志式）」格式、GUID 分区图，并将U盘命名为「Sierra」。(注意：这个盘符名称将会与后面的命令一一对应，如果你改了这盘符的名字，必须保证后面的命令里的名称也要一致)
 4. 打开 “应用程序→实用工具→终端”，将下面的一段命令复制并粘贴进去：
+~~~
 sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Sierra --applicationpath /Applications/Install\ macOS\ Sierra.app --nointeraction
+~~~
 
 回车并执行该命令，这时会提示让你输入管理员密码，便会开始制作过程了：
 ![image](../../pub-images/macOS制作U盘启动.png)
@@ -27,7 +29,7 @@ sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallme
 如上图，这时系统已经在制作中了，请耐心等待直到屏幕最后出现 Done. 字样即表示大功告成了
 
 # mac系统U盘安装
-0.（此步骤可选：如果想格式化磁盘则进行此操作）启动时按住[command + r]，进入磁盘管理工具抹掉磁盘即可
+0. （此步骤可选：如果想格式化磁盘则进行此操作）启动时按住[command + r]，进入磁盘管理工具抹掉磁盘即可
 1. 先在目标电脑上插上 U 盘，然后重启你的 Mac，然后一直按住[option」(alt)] 按键不放，直到屏幕显示多出一个 USB 启动盘的选项。
 2. 选择 U 盘的图标回车，即可通过 U 盘来安装 macOS Sierra 了！这时，你可以直接覆盖安装系统(升级)，也可以在磁盘工具里面格式化抹掉整个硬盘，或者重新分区等实现全新的干净的安装
 3. 启动过程中电脑会重启，重启的时候，拔掉U盘

@@ -14,12 +14,13 @@ password:
 Parallels Desktop是一款运行在 Mac 电脑上的极为优秀的虚拟机软件。用户可以在 Mac OS X 下非常方便运行 Windows、Linux 等操作系统及应用。
 
 # 安装
-PD为收费软件，链接: https://pan.baidu.com/s/1CBa7tIghlF7JIiJTtuqdYQ 提取码: es9m，又经济能力的希望支持正版
+PD为收费软件，链接: https://pan.baidu.com/s/1CBa7tIghlF7JIiJTtuqdYQ 提取码: es9m，有经济能力的希望支持正版
 
 PD安装操作系统需准备一个系统ISO镜像,虚拟机系统安装过程和普通系统安装过程基本一致。
 windows10镜像下载： https://www.microsoft.com/zh-cn/software-download/windows10ISO/
 
-系统安装完成之后，需安装Parallels Tools，如下图：
+系统安装完成之后，需安装Parallels Tools，否则使用时鼠标使用等方面会有很多不便，注意安装Parallels Tools时注意PD版本，防止有和系统不兼容。
+如下图：
 ![image](../../pub-images/Parallels%20Tools.png)
 
 # PD使用注意事项

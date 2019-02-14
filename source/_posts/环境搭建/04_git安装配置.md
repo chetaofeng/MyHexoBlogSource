@@ -12,16 +12,14 @@ password:
 
 # 简介
 官网：https://git-scm.com/
-
 Git是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。
-
 Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。
-
 Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。
 
 详细学习，推荐：
 * http://www.runoob.com/git/git-tutorial.html
-* 廖雪峰大神的git教程： https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+* 廖雪峰大神的git教程
+https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 * git的前世今生： https://blog.csdn.net/csdnprogram/article/details/52155078
 
 # 工作原理
@@ -56,16 +54,17 @@ config 配置有system级别 global（用户级别） 和local（当前仓库）
 git config --system --list
 git config --global --list
 git config --和local --list
-~~
+~~~
 
 git安装完成后，还需要最后一步设置，在命令行输入：
+
 ~~~
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 ~~~
 因为Git是分布式版本控制系统，所以，每个机器都必须自报家门
 
-# git账号管理流程
+# git账号关联流程
 1. 生成SSHkey
 ssh-keygen命令用于为“ssh”生成、管理和转换认证密钥，它支持RSA和DSA两种认证密钥.
 ssh-keygen(选项)
@@ -129,6 +128,11 @@ Host gitlab.com
      PreferredAuthentications publickey
      IdentityFile ~/.ssh/id_rsa.gitlab
 ~~~
+* Host： 是我们在输入命令的时候的名字 比如我这里是lab  那么我使用ssh命令的时候需要使用 ssh lab 
+* HostName： 是目标主机的主机名，也就是平时我们使用ssh后面跟的地址名称。
+* Port：指定的端口号。
+* User：指定的登陆用户名。
+* IdentifyFile：指定的私钥地址。
  
 # .gitignore文件
 不添加到版本库的内容记录，创建项目后一定要添加.gitignore文件
