@@ -37,7 +37,7 @@ export PATH=$PATH:/usr/groovy-2.5.5/bin
 ## InteliJ IDEA配置
 1. 确保已安装Groovy插件
 2. 配置Groovy SDK未知
-![image](../../pub-images/Intelij%20Groovy.png)
+![image](/pub-images/Intelij%20Groovy.png)
 3. 编写Groovy版本HelloWorld，注意查看编译后文件
 ~~~
 //Java版本
@@ -295,7 +295,7 @@ switch(number){
 
 > 元编程通常有两种方式起作用。一种方式是通过应用程序接口（API）来暴露运行时引擎的内部信息。另一种方法是动态执行包含编程命令的字符串。因此，“程序能编写程序”。虽然两种方法都能用，但大多数方法主要靠其中一种。
 
-![image](../../pub-images/Groovy元编程.png)
+![image](/pub-images/Groovy元编程.png)
 ~~~
 class Baby {
     def invokeMethod(String name,Object args){
@@ -365,7 +365,7 @@ gradle组成：groovy核心语法+build script block+gradle api
 
 ## gradle生命周期
 执行./gradlew clean 观察执行过程，其生命周期包括：初始化、配置、执行
-![image](../../pub-images/gradle生命周期.png)
+![image](/pub-images/gradle生命周期.png)
 
 ## gradle生命周期的监听
 在项目的build.gradle中添加如下

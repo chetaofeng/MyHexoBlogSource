@@ -9,8 +9,6 @@ date: 2018-12-19 15:29:55
 categories:
 password: oracle官网账号：  chetaofeng@163.com / Chetaofeng123./
 ---
-
-
                                            
 # JDK下载
 http://www.oracle.com/technetwork/java/javase/downloads/index.html
@@ -29,7 +27,10 @@ https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.
 下载dmg安装包后直接安装后，通过java -version；java；javac验证，个人发现最新版本中不用系统环境变量配置，重启电脑验证过，
 
 配置环境变量的方式：
-1. 找到JDK安装目录，如：/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home
+1. 找到JDK安装目录，如：
+~~~
+/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home
+~~~
 2. 编辑文件~/.bash_profile 文件
 ~~~
 JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home

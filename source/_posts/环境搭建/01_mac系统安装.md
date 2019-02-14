@@ -6,7 +6,7 @@ copyright: true
 comments: true
 toc: true
 date: 2018-12-19 15:29:55
-categories:
+categories: 环境搭建
 password:
 ---
 
@@ -24,7 +24,7 @@ sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallme
 ~~~
 
 回车并执行该命令，这时会提示让你输入管理员密码，便会开始制作过程了：
-![image](../../pub-images/macOS制作U盘启动.png)
+![image](/pub-images/macOS制作U盘启动.png)
 
 如上图，这时系统已经在制作中了，请耐心等待直到屏幕最后出现 Done. 字样即表示大功告成了
 

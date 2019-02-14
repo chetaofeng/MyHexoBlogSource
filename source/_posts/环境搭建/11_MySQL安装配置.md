@@ -43,7 +43,7 @@ sudo chgrp -R mysql mysql-8.0.13-linux-glibc2.12-x86_64 //更改组
 6. sudo apt-get install libaio1 libaio-dev
 7. 初始化数据库: sudo ./bin/mysqld --initialize --user mysql
 执行过程中会生成一个临时密码，一定要保存好，后面修改密码需要用到，如图：
-![image](../../pub-images/mysql.png)
+![image](/pub-images/mysql.png)
 8. 开启服务: bin/mysqld_safe --user=mysql &
 9. 使用用户root登录: bin/mysql -uroot -p
 10. 更改root用户密码:
