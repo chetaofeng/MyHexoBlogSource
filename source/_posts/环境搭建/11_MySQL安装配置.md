@@ -1,12 +1,13 @@
 ---
 title: MySQL安装配置
 tags:
-  - 环境搭建
+  - MySQL
+  - 数据库
 copyright: true
 comments: true
 toc: true
 date: 2018-10-04 22:10:23
-categories: 
+categories: 环境搭建
 password:
 ---
  

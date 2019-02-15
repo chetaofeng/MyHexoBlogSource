@@ -1,12 +1,13 @@
 ---
 title: JetBrains系列软件安装配置
 tags:
-  - 环境搭建
+  - Java
+  - 工具
 copyright: true
 comments: true
 toc: true
 date: 2018-12-19 15:29:55
-categories:
+categories: 环境搭建
 password:
 ---
 
