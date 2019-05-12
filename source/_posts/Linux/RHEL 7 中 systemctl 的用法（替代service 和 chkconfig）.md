@@ -9,6 +9,10 @@ categories: Linux
 password:
 ---
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> efbdecad83f4a930cbe4ac15af01005e400706eb
 > systemctl是RHEL 7 的服务管理工具中主要的工具，它融合之前service和chkconfig的功能于一体。可以使用它永久性或只在当前会话中启用/禁用服务。
 
 > Systemctl是一个systemd工具，主要负责控制systemd系统和服务管理器。
@@ -31,8 +35,12 @@ password:
 >使用命令 systemctl is-enabled postfix.service 得到的值可以是enable、disable或static，这里的 static 它是指对应的 Unit 文件中没有定义[Install]区域，因此无法配置为开机启动服务。 
 
 
+<<<<<<< HEAD
 ![image](/pub-images/systemctl.png)
 
 更多：https://linux.cn/article-5926-1.html
 
 chkconfig： https://www.cnblogs.com/gotodsp/p/6405106.html
+=======
+更多：https://linux.cn/article-5926-1.html
+>>>>>>> efbdecad83f4a930cbe4ac15af01005e400706eb

@@ -10,6 +10,7 @@ date: 2018-12-19 15:29:55
 categories: 环境搭建
 password:
 ---
+<<<<<<< HEAD
 
 # 设置网络自动启动
 * 安装系统的时候设置网络自动启动（最简单）
@@ -36,3 +37,10 @@ yum update
 # 安装图形界面
 * sudo  yum groupinstall "GNOME Desktop" "Graphical Administration Tools"
 * 更新系统的运行级别，以便下次直接进入图形界面：udo ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
+=======
+https://blog.csdn.net/ganeshys2017/article/details/81300246
+
+http://www.cnblogs.com/linnuo/p/6257204.html
+
+https://blog.csdn.net/lwwl12/article/details/78247307
+>>>>>>> efbdecad83f4a930cbe4ac15af01005e400706eb
