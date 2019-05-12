@@ -1,18 +1,19 @@
 ---
 title: JetBrains系列软件安装配置
 tags:
-  - 环境搭建
+  - Java
+  - 工具
 copyright: true
 comments: true
 toc: true
 date: 2018-12-19 15:29:55
-categories:
+categories: 环境搭建
 password:
 ---
 
 # 软件破解
 软件破解请参考： http://idea.lanyus.com/
-1. 使用前请将“0.0.0.0 account.jetbrains.com”添加到hosts文件中
+1. 使用前请将“0.0.0.0 account.jetbrains.com”添加到hosts文件中屏蔽互联网,hosts文件位于/etc下面
 2. 在网页获取注册码，在注册页面填入注册码即可
 
 # Android Studio安装

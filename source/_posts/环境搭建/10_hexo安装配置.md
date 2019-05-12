@@ -7,7 +7,7 @@ copyright: true
 comments: true
 toc: true
 date: 2018-10-04 22:10:23
-categories: 搭建博客
+categories: 环境搭建
 password:
 ---
 

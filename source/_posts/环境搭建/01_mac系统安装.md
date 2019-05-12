@@ -13,7 +13,6 @@ password:
 # U盘启动
 U盘启动：目的是为了在没有装系统的情况下进行临时启动，它可以启动DOS、备份还原软件或内存中运行的PE系统。现在大部分的电脑都支持U盘启动。U盘启动在系统奔溃和快速安装系统时能起到很大的作用。
 
-
 # mac系统安装启动盘制作
 1. 准备一个 8GB 或更大容量的 U盘，并备份好里面的所有资料
 2. 下载好需要安装的系统。在App Store中搜索系统，如：MacOS Sierra，完成下载。
@@ -44,6 +43,16 @@ sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallme
 * 步骤3：输入你的 开机密码
 * 步骤4：回到系统偏好设置 的“安全与隐私”，勾选 “允许任何来源”完成安装.
 
+# Macbook Pro 忘记管理员名称和密码
+1. 开机启动时按“command+s”进入单一用户模式（Single user model）
+2. 在#root>下逐步输入以下命令
+~~~
+/sbin/fsck -fy
+/sbin/mount -uw /
+rm /var/db/.applesetupdone
+reboo
+~~~
+3. 重启开机后出现类似装机时的欢迎界面,新建一个管理员账号即可 
 
 # macOS一些其他维护相关知识
 官方技术支持网址：https://support.apple.com/zh-cn

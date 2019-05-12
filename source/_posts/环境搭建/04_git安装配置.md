@@ -1,12 +1,12 @@
 ---
 title: git安装配置
 tags:
-  - 环境搭建
+  - git
 copyright: true
 comments: true
 toc: true
 date: 2018-12-19 15:29:55
-categories:
+categories: 环境搭建
 password:
 ---
 
@@ -62,7 +62,7 @@ git安装完成后，还需要最后一步设置，在命令行输入：
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 ~~~
-因为Git是分布式版本控制系统，所以，每个机器都必须自报家门
+因为Git是分布式版本控制系统，所以，每个机器都必须自报家门，此用户名和邮箱是git提交代码时用来显示你身份和联系方式的，并不是github用户名和邮箱
 
 # git账号关联流程
 1. 生成SSHkey
@@ -91,7 +91,7 @@ ssh-keygen(选项)
 
 # git单账号关联
 ~~~
-> ssh-keygen -t rsa -C xxxxx@gmail.com（注册github时的email）
+> ssh-keygen -t rsa -C "xxxxx@gmail.com"（注册github时的email）
 > cat ~/.ssh/id_rsa.pub
 ~~~
 登陆网站，如github／gitee／gitlab等，在如设置／Settings中有SSH and GPG keys中【add new keys】，将id_rsa.pub内容添加，会自动识别标题,设置完成之后测试登陆
@@ -127,6 +127,12 @@ Host gitlab.com
      HostName gitlab.com
      PreferredAuthentications publickey
      IdentityFile ~/.ssh/id_rsa.gitlab
+     
+# gitlab-公司内网
+Host gsunis.net
+  HostName 47.94.*.*
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/id_rsa.gitlab_local
 ~~~
 * Host： 是我们在输入命令的时候的名字 比如我这里是lab  那么我使用ssh命令的时候需要使用 ssh lab 
 * HostName： 是目标主机的主机名，也就是平时我们使用ssh后面跟的地址名称。
@@ -146,6 +152,9 @@ gitlab／gitee没有配置选项，需先安装相应插件，如下：
 以前配置gitlab的时候，是通过Other Settings->GitLab Settings设置如下：
 * GitLab Server Url: https://gitlab.com/
 * GitLab API Key： https://gitlab.com/profile/account
+
+# http方式使用
+
 
 
 # git项目权限管理

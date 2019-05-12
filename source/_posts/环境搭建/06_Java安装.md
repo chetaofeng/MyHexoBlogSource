@@ -1,14 +1,15 @@
 ---
-title: java JDK安装配置
+title: JDK安装配置
 tags:
-  - 环境搭建
+  - Java
 copyright: true
 comments: true
 toc: true
 date: 2018-12-19 15:29:55
-categories:
-password: oracle官网账号：  chetaofeng@163.com / Chetaofeng123./
+categories: 环境搭建
+password: 
 ---
+<!-- oracle官网账号：  chetaofeng@163.com / Chetaofeng123./ --> 
                                            
 # JDK下载
 http://www.oracle.com/technetwork/java/javase/downloads/index.html

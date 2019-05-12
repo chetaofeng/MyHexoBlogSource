@@ -1,12 +1,13 @@
 ---
 title: Ubuntu系统安装后的设置
 tags:
-  - 环境搭建
+  - ubuntu
+  - Linux
 copyright: true
 comments: true
 toc: true
 date: 2018-12-19 15:29:55
-categories:
+categories: 环境搭建
 password:
 ---
 # 修改默认源为国内源

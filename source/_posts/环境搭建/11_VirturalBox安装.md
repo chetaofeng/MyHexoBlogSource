@@ -1,13 +1,12 @@
 ---
-title: MySQL安装配置
+title: VirtualBox安装
 tags:
-  - node
-  - hexo
+  - 容器技术 
 copyright: true
 comments: true
 toc: true
 date: 2018-10-04 22:10:23
-categories: 
+categories: 环境搭建
 password:
 ---
 
