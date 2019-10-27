@@ -20,3 +20,26 @@ password:
 http://www.chinacion.cn/article/4907.html
 
 https://baijiahao.baidu.com/s?id=1594078288126052112&wfr=spider&for=pc
+
+https://blog.csdn.net/qiubabin/article/details/70135556
+
+
+https://blog.csdn.net/qq_36636926/article/details/85131420
+
+https://www.cnblogs.com/stevenchen2016/p/5770214.html
+
+https://blog.csdn.net/tongdanping/article/details/79878302
+
+https://baijiahao.baidu.com/s?id=1594078288126052112&wfr=spider&for=pc
+
+https://www.cnblogs.com/whgk/p/6179612.html
+
+http://localhost:8081/druid/api.html
+
+https://blog.csdn.net/weixin_41023230/article/details/80103990
+
+https://blog.csdn.net/jbboy/article/details/46828917
+
+https://www.cnblogs.com/sweet521/p/5730804.html
+
+https://blog.csdn.net/u012050154/article/details/60572567
